@@ -1,0 +1,49 @@
+body {
+  font-family: 'Patua One', cursive;
+}
+
+a {
+  text-decoration: none !important;
+  color:white;
+}
+
+a:hover {
+  color: #f9f348;  
+}
+
+.tab {
+  background: #333333;
+  vertical-align: middle;
+  font-size: 40px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  line-height: 55px;
+}
+
+.sdescription {
+  font-size: 14px;
+  float: right;
+  vertical-align: middle;
+  line-height: 55px;
+}
+
+.tab:hover {
+  color: #f9f348;
+  border-color: #f9f348;
+  border-style: solid;
+}
+
+#title { 
+  font-size: 350%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#word1 {
+  color: #333333;
+}
+
+#word2 {
+  color: #5DC44C;
+}

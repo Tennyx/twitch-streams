@@ -1,0 +1,61 @@
+{% extends "../home/base.html" %}
+{% block title %}
+Twitch Streams
+{% endblock %}
+
+{% block header %}
+<script src="/static/js/twitchStreams.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<link rel="stylesheet" href="/static/css/twitch-streams.css">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+  
+  <div class="text-center" id="title"><span id="word1">TWITCH</span><span id="word2"> STREAMS</span></div>
+  
+  <div class="container tab" id="ESL_SC2">
+    <a href="https://www.twitch.tv/ESL_SC2" target="_blank">ESL_SC2<span class="sdescription" id="dESL_SC2">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="OgamingSC2">
+    <a href="https://www.twitch.tv/OgamingSC2" target="_blank">OgamingSC2<span class="sdescription" id="dOgamingSC2">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="cretetion">
+    <a href="https://www.twitch.tv/cretetion" target="_blank">cretetion<span class="sdescription" id="dcretetion">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="storbeck">
+    <a href="https://www.twitch.tv/storbeck" target="_blank">storbeck<span class="sdescription" id="dstorbeck">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="habathcx">
+    <a href="https://www.twitch.tv/habathcx" target="_blank">habathcx<span class="sdescription" id="dhabathcx">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="RobotCaleb">
+    <a href="https://www.twitch.tv/RobotCaleb" target="_blank">RobotCaleb<span class="sdescription" id="dRobotCaleb">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="noobs2ninjas">
+    <a href="https://www.twitch.tv/noobs2ninjas" target="_blank">noobs2ninjas<span class="sdescription" id="dnoobs2ninjas">No Stream</span></a>
+  </div>
+
+  <div class="container tab" id="brunofin">
+    <a href="https://www.twitch.tv/brunofin" target="_blank">brunofin<span class="sdescription" id="dbrunofin">No Stream</span></a>
+  </div>  
+
+  <div class="container tab" id="comster404">
+    <a href="https://www.twitch.tv/comster404" target="_blank">comster404<span class="sdescription" id="dcomster404">No Stream</span></a>
+  </div>    
+
+</div>
+
+
+
+<div class="text-center">
+	<a href="#"><i class="fa fa-github fontlink-light" aria-hidden="true"></i></a>
+	<p class="text-center description">This project was written in jQuery. Click for github code.</p>
+</div>
+{% endblock %}
